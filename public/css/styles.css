@@ -1,0 +1,118 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --Gris-oscuro: #666;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+    --font-Roboto: 'Roboto', sans-serif;
+    --texto: 12px;
+    --titular: 24px;
+    --precio: 18px;
+    --descuento: 16px;
+    --descripcion: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-Roboto);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*-------- HEADER ----------*/
+
+header {
+    background-color: var(--Amarillo);
+}
+
+header .logo {
+    width: 50%;
+    height: 50%;
+    padding: 20px 20px 10px;
+}
+
+header .search__bar {
+    padding-left: 20px;
+}
+
+header .compra__protegida {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+header .compra__protegida p {
+    font-size: var(--texto);
+}
+
+header .nav__bar,
+header .login__bar {
+    margin: 20px 0px;
+}
+
+header .nav__bar a,
+header .login__bar a {
+    font-size: var(--texto);
+}
+
+header .burger-menu {
+    text-align: center;
+}
+
+header .burger-menu i {
+    padding: 10px;
+    background-color: var(--Celeste);
+    color: white;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+/*------- FIN HEADER ----------*/
+
+
+/* ------- FOOTER ----------- */
+footer .icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .icon i {
+    color: var(--Celeste);
+    font-size: 24px;
+}
+
+footer .information {
+    padding: 25px 35px;
+    text-align: center;
+}
+
+footer .information p {
+    font-size: var(--texto);
+}
+
+footer #copyright {
+    font-size: var(--texto);
+    margin: 10px 20px;
+}
+/* -------- Fin FOOTER ----------- */
